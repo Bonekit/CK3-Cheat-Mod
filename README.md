@@ -10,6 +10,19 @@ Also you can directly interact with your character or with another character to 
 ## Credits to
 Zero-slash (Modder from Pavlik)
 
+## Create a descriptor.mod file to use this mod
+I don't added my own descriptor.mod file, because there is my workshop id inside.
+```
+version="0.7.0"
+tags={
+	"Decisions"
+	"Gameplay"
+	"Utilities"
+}
+name="Bonekits Cheat Menu"
+supported_version="1.6*"
+```
+
 ## Decisions
 * Add gold
 * Add piety
