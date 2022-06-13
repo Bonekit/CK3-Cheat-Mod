@@ -1,0 +1,113 @@
+﻿bone_open_decision_cheat_tab = {
+	picture = gfx/interface/illustrations/decisions/open_tab.dds
+	title = bone_open_decision_cheat_tab_title
+    desc = bone_open_decision_cheat_tab_desc
+    selection_tooltip = bone_open_decision_cheat_tab_tooltip
+    confirm_text = bone_open_decision_cheat_tab_ct 
+
+	is_shown = {
+	    NOT = { 
+			has_character_flag = bone_cheat_tab_flag 
+		}
+    }
+
+    effect = {
+        add_character_flag = {
+            flag = bone_cheat_tab_flag
+        }
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+bone_open_currencies_tab = {
+    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    title = bone_open_currencies_tab_title
+    desc = bone_open_currencies_tab_desc
+    selection_tooltip = bone_open_currencies_tab_tooltip
+    confirm_text = bone_open_currencies_tab_ct
+
+    is_shown = {
+	   has_character_flag = bone_cheat_tab_flag
+	   NOT = { 
+		   has_character_flag = currencies_tab_flag
+		}
+    }
+
+    effect = {
+        add_character_flag = {
+            flag = currencies_tab_flag
+        }
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+open_character_stats_tab = {
+    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    title = open_character_stats_tab_title
+    desc = open_character_stats_tab_desc
+    selection_tooltip = open_character_stats_tab_tooltip
+    confirm_text = open_character_stats_tab_ct
+
+    is_shown = {
+	   has_character_flag = bone_cheat_tab_flag
+	   NOT = { 
+		   has_character_flag = character_stats_tab_flag
+		}
+    }
+
+    effect = {
+        add_character_flag = {
+            flag = character_stats_tab_flag
+        }
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+open_trait_tab = {
+    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    title = open_trait_tab_title
+    desc = open_trait_tab_desc
+    selection_tooltip = open_trait_tab_tooltip
+    confirm_text = open_trait_tab_ct
+
+    is_shown = {
+	   has_character_flag = bone_cheat_tab_flag
+	   NOT = { 
+		   has_character_flag = trait_tab_flag
+		}
+    }
+
+    effect = {
+        add_character_flag = {
+            flag = trait_tab_flag
+        }
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+open_realm_tab = {
+    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    title = open_realm_tab_title
+    desc = open_realm_tab_desc
+    selection_tooltip = open_realm_tab_tooltip
+    confirm_text = open_realm_tab_ct
+
+    is_shown = {
+	   has_character_flag = bone_cheat_tab_flag
+	   NOT = { 
+		   has_character_flag = realm_tab_flag 
+		}
+    }
+
+    effect = {
+        add_character_flag = {
+            flag = realm_tab_flag
+        }
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}

@@ -1,0 +1,99 @@
+﻿l_english:
+ # Decisions to open tabs
+ bone_open_decision_cheat_tab_title:0 "Open Cheat Tab"
+ bone_open_decision_cheat_tab_desc:0 "Open the cheat tab to show all options"
+ bone_open_decision_cheat_tab_tooltip:0 "Open the cheat tab to show all options"
+ bone_open_decision_cheat_tab_ct:0 "Open Tab"
+
+ bone_open_currencies_tab_title:0 "Open Currencies Tab"
+ bone_open_currencies_tab_desc:0 "This will open the currencies tab. You can add gold, prestige, piety, dynasty prestige"
+ bone_open_currencies_tab_tooltip:0 "This will open the currencies tab."
+ bone_open_currencies_tab_ct:0 "Open Tab"
+
+ open_character_stats_tab_title:0 "Open Character Stats Tab"
+ open_character_stats_tab_desc:0 "This will open the character stats tab. You can increase your martial, diplomacy and more."
+ open_character_stats_tab_tooltip:0 "This will open the character stats tab."
+ open_character_stats_tab_ct:0 "Okay"
+
+ open_trait_tab_title:0 "Open the Trait Tab"
+ open_trait_tab_desc:0 "This will open the Trait Tab"
+ open_trait_tab_tooltip:0 "This will open the Trait tab."
+ open_trait_tab_ct:0 "Okay"
+
+ open_realm_tab_title:0 "Open the Realm Tab"
+ open_realm_tab_desc:0 "This will open the Realm Tab"
+ open_realm_tab_tooltip:0 "This will open the Realm tab."
+ open_realm_tab_ct:0 "Okay"
+
+ # Decisions to close tabs
+ bone_close_decision_cheat_tab_title:0 "Close Cheat Tab"
+ bone_close_decision_cheat_tab_desc:0 "Close the cheat tab to hide all options"
+ bone_close_decision_cheat_tab_tooltip:0 "Close the cheat tab to hide all options"
+ bone_close_decision_cheat_tab_ct:0 "Close Tab"
+
+ bone_close_currencies_tab_title:0 "Close Currencies Tab"
+ bone_close_currencies_tab_desc:0 "This will close the currencies tab."
+ bone_close_currencies_tab_tooltip:0 "This will close the currencies tab."
+ bone_close_currencies_tab_ct:0 "Close Tab"
+
+ close_character_stats_tab_title:0 "Close Character Stats Tab"
+ close_character_stats_tab_desc:0 "This will close the character stats tab."
+ close_character_stats_tab_tooltip:0 "This will close the character stats tab."
+ close_character_stats_tab_ct:0 "Close Tab"
+
+ close_trait_tab_title:0 "Close the Trait Tab"
+ close_trait_tab_desc:0 "This will close the Trait Tab"
+ close_trait_tab_tooltip:0 "This will close the Trait tab."
+ close_trait_tab_ct:0 "Close Tab"
+
+ close_realm_tab_title:0 "Close the Realm Tab"
+ close_realm_tab_desc:0 "This will close the Realm Tab"
+ close_realm_tab_tooltip:0 "This will close the Realm tab."
+ close_realm_tab_ct:0 "Close Tab"
+
+ # Decisions Realm
+ bone_convert_realm_to_culture_decision_title:0 "Convert Realm to Culture"
+ bone_convert_realm_to_culture_decision_desc:0 "Convert all in your Realm to your Culture"
+ bone_convert_realm_to_culture_decision_tooltip:0 "Convert subrealms to culture"
+ bone_convert_realm_to_culture_decision_ct:0 "Execute"
+
+ bone_convert_realm_to_religion_decision_title:0 "Convert to Religion"
+ bone_convert_realm_to_religion_decision_desc:0 "Convert all in your Realm to your Religion"
+ bone_convert_realm_to_religion_decision_tooltip:0 "Convert Realm to Religion"
+ bone_convert_realm_to_religion_decision_ct:0 "Execute"
+
+ bone_max_all_buildings_sub_realm_decision_title:0 "Max all Buildings (Beta)"
+ bone_max_all_buildings_sub_realm_decision_desc:0 "Max all Buildings to current possible upgrade level, (Beta-Version)"
+ bone_max_all_buildings_sub_realm_decision_tooltip:0 "Max all Buildings to possible upgrade level (Beta)"
+ bone_max_all_buildings_sub_realm_decision_ct:0 "Okay"
+
+ # Decisions Traits
+ king_of_kings_title:0 "King of Kings"
+ king_of_kings_desc:0 "King of Kings is adding three powerful traits to your character"
+ king_of_kings_tooltip:0 "Adding 3 powerful traits"
+ king_of_kings_ct:0 "Okay"
+
+ great_general_title:0 "Great General"
+ great_general_desc:0 "Great General is adding three powerful traits to your character"
+ great_general_tooltip:0 "Adding 3 powerful traits"
+ great_general_ct:0 "Okay"
+
+ learned_from_the_best_title:0 "Learned from the best"
+ learned_from_the_best_desc:0 "Adding the best education to your character"
+ learned_from_the_best_tooltip:0 "Adding the best education to your character"
+ learned_from_the_best_ct:0 "Okay"
+
+ add_trait_super_01_title:0 "Add super lvl 1"
+ add_trait_super_01_desc:0 "Add trait super level 1 to your character"
+ add_trait_super_01_tooltip:0 "Add trait super level 1 to your character"
+ add_trait_super_01_ct:0 "Okay"
+
+ add_trait_super_02_title:0 "Add super lvl 2"
+ add_trait_super_02_desc:0 "Add trait super level 2 to your character"
+ add_trait_super_02_tooltip:0 "Add trait super level 2 to your character"
+ add_trait_super_02_ct:0 "Okay"
+
+ add_trait_super_03_title:0 "Add super lvl 3"
+ add_trait_super_03_desc:0 "Add trait super level 3 to your character"
+ add_trait_super_03_tooltip:0 "Add trait super level 3 to your character"
+ add_trait_super_03_ct:0 "Okay"

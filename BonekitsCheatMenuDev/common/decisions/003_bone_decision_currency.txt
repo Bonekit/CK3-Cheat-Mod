@@ -1,0 +1,76 @@
+﻿# 003_bone_decision_currency.txt
+# Author: Bonekit
+# Date: 06.06.2022
+get_dynasty_prestige = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "10,000 Dynasty_Prestige"
+    desc = "Increase your dynasty prestige with one click."
+    confirm_text = "Increase your dynasty prestige by 10,000"
+
+    is_shown = {
+		  has_character_flag = bone_cheat_tab_flag
+		  has_character_flag = currencies_tab_flag
+    }
+
+    effect = {
+        root.dynasty = {
+			add_dynasty_prestige = 10000
+		}
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+get_money = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "10,000 Gold"
+    desc = "Increase your gold with one click."
+    confirm_text = "Increase your treasury by 10,000 Gold"
+
+    is_shown = {
+		  has_character_flag = bone_cheat_tab_flag
+		  has_character_flag = currencies_tab_flag
+    }
+
+    effect = {
+        add_gold = 10000
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+get_prestige = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "10,000 Prestige"
+    desc = "Increase your prestige with one click."
+    confirm_text = "10,000 Prestige"
+
+    is_shown = {
+		  has_character_flag = bone_cheat_tab_flag
+		  has_character_flag = currencies_tab_flag
+    }
+
+    effect = {
+        add_prestige = 10000
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+get_piety = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "1,000 Piety"
+    desc = "Increase your piety with one click."
+    confirm_text = "1,000 Prestige"
+
+    is_shown = {
+		  has_character_flag = bone_cheat_tab_flag
+		  has_character_flag = currencies_tab_flag
+    }
+
+    effect = {
+        add_piety = 1000
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}

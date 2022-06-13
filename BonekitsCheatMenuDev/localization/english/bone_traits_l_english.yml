@@ -1,0 +1,36 @@
+﻿l_english:
+ trait_bone_super_01:0 "Super Level 1"
+ trait_bone_super_01_desc:0 "This character is not bad"
+ trait_bone_super_01_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is not bad"
+
+ trait_bone_super_02:0 "Super Level 2"
+ trait_bone_super_02_desc:0 "This character is quit good"
+ trait_bone_super_02_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is quit good"
+
+ trait_bone_super_03:0 "Super Level 3"
+ trait_bone_super_03_desc:0 "This character is the chosen one"
+ trait_bone_super_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the chosen one"
+
+ trait_bone_super_general_01:0 "Super General Level 1"
+ trait_bone_super_general_01_desc:0 "This character can lose a battle"
+ trait_bone_super_general_01_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] can lose a battle"
+
+ trait_bone_super_general_02:0 "Super General Level 2"
+ trait_bone_super_general_02_desc:0 "This character could lose a battle"
+ trait_bone_super_general_02_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] could lose a battle"
+
+ trait_bone_super_general_03:0 "Super General Level 3"
+ trait_bone_super_general_03_desc:0 "This character should never lose a battle"
+ trait_bone_super_general_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] should never lose a battle"
+ 
+ trait_bone_super_governor_01:0 "Super Governor Level 1"
+ trait_bone_super_governor_01_desc:0 "This character is not bad as governor, could be better"
+ trait_bone_super_governor_01_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is not bad as governor, could be better"
+
+ trait_bone_super_governor_02:0 "Super Governor Level 2"
+ trait_bone_super_governor_02_desc:0 "This character is quit good as governor"
+ trait_bone_super_governor_02_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is quit good as governor"
+
+ trait_bone_super_governor_03:0 "Super Governor Level 3"
+ trait_bone_super_governor_03_desc:0 "This character has everything under control"
+ trait_bone_super_governor_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has everything under control"

@@ -1,0 +1,639 @@
+﻿open_bone_trait_interactions = {
+	category = interaction_category_cheat_menu
+	desc = bone_trait_interactions_desc
+	common_interaction = yes
+
+	auto_accept = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			NOT = {
+				has_character_flag = bone_trait_interactions_flag
+			}
+		}
+	}
+	
+	on_send = {
+		scope:actor = {
+			add_character_flag = bone_trait_interactions_flag
+		}
+	}
+}
+
+close_bone_trait_interactions = {
+	category = interaction_category_cheat_menu
+	desc = bone_trait_interactions_desc
+	common_interaction = yes
+
+	auto_accept = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+	}
+	
+	on_send = {
+		scope:actor = {
+			remove_character_flag = bone_trait_interactions_flag
+		}
+	}
+}
+
+king_of_kings_interaction = {
+	category = interaction_category_cheat_menu
+    desc = king_of_kings_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+    is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = { 
+				has_trait = beauty_good_3
+				has_trait = intellect_good_3
+				has_trait = physique_good_3
+			}
+		}
+    }
+
+	on_accept = {
+		scope:recipient = {
+			add_trait = beauty_good_3
+			add_trait = intellect_good_3
+			add_trait = physique_good_3
+		}
+	}
+
+	auto_accept = yes
+}
+
+great_general_interaction = {
+    desc = great_general_interaction_desc
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+    is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = {
+				has_trait = blademaster_3
+				has_trait = organizer
+				has_trait = hunter_3
+			}
+		}
+    }
+
+	on_accept = {
+		scope:recipient = {
+			add_trait = blademaster_3
+			add_trait = organizer
+			add_trait = hunter_3
+		}
+	}
+	auto_accept = yes
+}
+
+learned_from_the_best_interaction = {
+	category = interaction_category_cheat_menu
+    desc = learned_from_the_best_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+    is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = {
+				has_trait = education_diplomacy_4
+				has_trait = education_martial_4
+				has_trait = education_stewardship_4
+				has_trait = education_learning_4
+				has_trait = education_intrigue_4
+				has_trait = education_martial_prowess_4
+			}
+		}
+    }
+
+	on_accept = {
+		scope:recipient = {
+			add_trait = education_diplomacy_4
+			add_trait = education_martial_4
+			add_trait = education_stewardship_4
+			add_trait = education_learning_4
+			add_trait = education_intrigue_4
+			add_trait = education_martial_prowess_4
+		}
+	}
+	auto_accept = yes
+}
+
+add_trait_super_01_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = add_trait_super_01_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = { 
+				has_trait = bone_super_01
+			}
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_super_01
+		}
+	}
+	
+	auto_accept = yes
+}
+
+add_trait_super_02_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = add_trait_super_02_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = { 
+				has_trait = bone_super_02
+			}
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_super_02
+		}
+	}
+	
+	auto_accept = yes
+}
+
+add_trait_super_03_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = add_trait_super_03_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = { 
+				has_trait = bone_super_03
+			}
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_super_03
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_super_01_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = remove_trait_super_01_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			has_trait = bone_super_01
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_super_01
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_super_02_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = remove_trait_super_02_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			has_trait = bone_super_02
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_super_02
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_super_03_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = remove_trait_super_03_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			has_trait = bone_super_03
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_super_03
+		}
+	}
+	
+	auto_accept = yes
+}
+
+add_trait_super_governor_01_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	desc = add_trait_super_governor_01_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = {
+				has_trait = bone_super_governor_01
+			}
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_super_governor_01
+		}
+	}
+	
+	auto_accept = yes
+}
+
+add_trait_super_governor_02_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	desc = add_trait_super_governor_02_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = {
+				has_trait = bone_super_governor_02
+			}
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_super_governor_02
+		}
+	}
+	
+	auto_accept = yes
+}
+
+add_trait_super_governor_03_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	desc = add_trait_super_governor_03_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = {
+				has_trait = bone_super_governor_03
+			}
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_super_governor_03
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_super_governor_01_interaction = {
+	category = interaction_category_cheat_menu
+	desc = remove_trait_super_governor_01_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			has_trait = bone_super_governor_01
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_super_governor_01	
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_super_governor_02_interaction = {
+	category = interaction_category_cheat_menu
+	desc = remove_trait_super_governor_02_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			has_trait = bone_super_governor_02
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_super_governor_02	
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_super_governor_03_interaction = {
+	category = interaction_category_cheat_menu
+	desc = remove_trait_super_governor_03_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			has_trait = bone_super_governor_03
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_super_governor_03	
+		}
+	}
+	
+	auto_accept = yes
+}
+
+add_trait_super_general_01_interaction = {
+	category = interaction_category_cheat_menu
+	desc = add_trait_super_general_01_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = {
+				has_trait = bone_super_general_01
+			}
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_super_general_01
+		}
+	}
+	
+	auto_accept = yes
+}
+
+add_trait_super_general_02_interaction = {
+	category = interaction_category_cheat_menu
+	desc = add_trait_super_general_02_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = {
+				has_trait = bone_super_general_02
+			}
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_super_general_02
+		}
+	}
+	
+	auto_accept = yes
+}
+
+add_trait_super_general_03_interaction = {
+	category = interaction_category_cheat_menu
+	desc = add_trait_super_general_03_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = {
+				has_trait = bone_super_general_03
+			}
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_super_general_03
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_super_general_01_interaction = {
+	category = interaction_category_cheat_menu
+	desc = remove_trait_super_general_01_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+
+		scope:recipient = {
+			has_trait = bone_super_general_01
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_super_general_01
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_super_general_02_interaction = {
+	category = interaction_category_cheat_menu
+	desc = remove_trait_super_general_02_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+
+		scope:recipient = {
+			has_trait = bone_super_general_02
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_super_general_02
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_super_general_03_interaction = {
+	category = interaction_category_cheat_menu
+	desc = remove_trait_super_general_03_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+
+		scope:recipient = {
+			has_trait = bone_super_general_03
+		}		
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_super_general_03
+		}
+	}
+	
+	auto_accept = yes
+}

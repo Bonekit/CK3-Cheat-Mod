@@ -1,0 +1,244 @@
+﻿reduce_stress = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "-50 Stress Reduction"
+    desc = "Make your character as relaxed as possible."
+    selection_tooltip = "Go as far as you need..."
+    confirm_text = "Okay"
+
+    is_shown = {
+        has_character_flag = bone_cheat_tab_flag
+        has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+        add_stress = -50
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+increase_stats_by_10 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "+10 All Character Stats"
+    desc = "Increase your character's abilities by 10 points."
+    confirm_text = "+10 Stat Increase"
+
+    is_shown = {
+		has_character_flag = bone_cheat_tab_flag
+		has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+        add_prowess_skill = 10
+        add_diplomacy_skill = 10
+        add_stewardship_skill = 10
+        add_martial_skill = 10
+        add_intrigue_skill = 10
+        add_learning_skill = 10
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+increase_prowess_by_10 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "+10 Prowess Skill"
+    desc = "Increase your character's prowess abilities by 10 points."
+    confirm_text = "+10 Prowess Skill"
+
+    is_shown = {
+		has_character_flag = bone_cheat_tab_flag
+		has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+        add_prowess_skill = 10
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+increase_diplomacy_by_10 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "+10 Diplomacy Skill"
+    desc = "Increase your character's diplomatic abilities by 10 points."
+    confirm_text = "+10 Diplomacy Skill"
+
+    is_shown = {
+		has_character_flag = bone_cheat_tab_flag
+		has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+        add_diplomacy_skill = 10
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+increase_stewardship_by_10 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "+10 Stewardship Skill"
+    desc = "Increase your character's stewardship abilities by 10 points."
+    confirm_text = "+10 Stewardship Skill"
+
+    is_shown = {
+		has_character_flag = bone_cheat_tab_flag
+		has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+        add_stewardship_skill = 10
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+increase_martial_by_10 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "+10 Martial Skill."
+    desc = "Increase your character's martial abilities by 10 points."
+    confirm_text = "+10 Martial Skill"
+
+    is_shown = {
+		has_character_flag = bone_cheat_tab_flag
+		has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+        add_martial_skill = 10
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+increase_intrigue_by_10 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "+10 Intrigue Skill"
+    desc = "Increase your character's intrigue abilities by 10 points."
+    confirm_text = "+10 Intrigue Skill"
+
+    is_shown = {
+		has_character_flag = bone_cheat_tab_flag
+		has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+        add_intrigue_skill = 10
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+increase_learning_by_10 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "+10 Learning Skill"
+    desc = "Increase your character's learning abilities by 10 points."
+    confirm_text = "+10 Learning Skill"
+
+    is_shown = {
+		has_character_flag = bone_cheat_tab_flag
+		has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+        add_learning_skill = 10
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+martial_perk_point_1 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+	title = "Add Martial Lifestyle Perk Point"
+    desc = "This will add a perk point for the martial category."
+    selection_tooltip = "This will allow you to pick another perk."
+    confirm_text = "Okay"
+
+    is_shown = {
+	    has_character_flag = bone_cheat_tab_flag
+	    has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+		add_martial_lifestyle_perk_points = 1
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+diplo_perk_point_1 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+	title = "Add Diplomatic Lifestyle Perk Point"
+    desc = "This will add a perk point for the diplomatic category."
+    selection_tooltip = "This will allow you to pick another perk."
+    confirm_text = "Okay"
+
+    is_shown = {
+	    has_character_flag = bone_cheat_tab_flag
+        has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+		add_diplomacy_lifestyle_perk_points = 1
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+steward_perk_point_1 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+	title = "Add Steward Lifestyle Perk Point"
+    desc = "This will add a perk point for the steward category."
+    selection_tooltip = "This will allow you to pick another perk."
+    confirm_text = "Okay"
+
+    is_shown = {
+	    has_character_flag = bone_cheat_tab_flag
+        has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+		add_stewardship_lifestyle_perk_points = 1
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+intrigue_perk_point_1 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "Add Intrigue Lifestyle Perk Point"
+    desc = "This will add a perk point for the intrigue category."
+    selection_tooltip = "This will allow you to pick another perk."
+    confirm_text = "Okay"
+
+    is_shown = {
+        has_character_flag = bone_cheat_tab_flag
+		has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+		add_intrigue_lifestyle_perk_points = 1
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
+learning_perk_point_1 = {
+    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    title = "Add Learning Lifestyle Perk Point"
+    desc = "This will add a perk point for the learning category."
+    selection_tooltip = "This will allow you to pick another perk."
+    confirm_text = "Okay"
+
+    is_shown = {
+	    has_character_flag = bone_cheat_tab_flag
+        has_character_flag = character_stats_tab_flag
+    }
+
+    effect = {
+		add_learning_lifestyle_perk_points = 1
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
