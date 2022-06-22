@@ -1,0 +1,23 @@
+﻿# Female Power
+bone_female_wife = {
+	index = 1020
+	learning = 10
+	diplomacy = 10
+	stewardship = 10
+
+	fertility = 0.1
+	stress_gain_mult = -0.1
+	ignore_negative_culture_opinion = yes
+	birth = 0
+	random_creation = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_bone_female_wife_desc
+			}
+			desc = trait_bone_female_wife_character_desc
+		}
+	}
+}

@@ -283,7 +283,6 @@ bone_change_religion = {
 			set_character_faith = scope:actor.faith
 		}
 	}
-	auto_accept = yes
 }
 
 bone_change_culture = {
@@ -309,5 +308,4 @@ bone_change_culture = {
 			set_culture = scope:actor.culture
 		}
 	}
-	auto_accept = yes
 }

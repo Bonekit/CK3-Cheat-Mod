@@ -1,4 +1,4 @@
-# Make character a super governor
+﻿# Make character a super governor
 bone_super_governor_01 = {
 	index = 1004
 	monthly_county_control_change_add_even_if_baron = 10

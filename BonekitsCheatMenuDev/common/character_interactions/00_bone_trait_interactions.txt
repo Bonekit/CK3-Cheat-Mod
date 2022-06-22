@@ -78,6 +78,34 @@ king_of_kings_interaction = {
 	auto_accept = yes
 }
 
+beauty_interaction = {
+	category = interaction_category_cheat_menu
+    desc = beauty_interaction_desc
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+    is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = { 
+				has_trait = beauty_good_3
+			}
+		}
+    }
+
+	on_accept = {
+		scope:recipient = {
+			add_trait = beauty_good_3
+		}
+	}
+
+	auto_accept = yes
+}
+
 great_general_interaction = {
     desc = great_general_interaction_desc
 	category = interaction_category_cheat_menu
@@ -143,6 +171,35 @@ learned_from_the_best_interaction = {
 			add_trait = education_martial_prowess_4
 		}
 	}
+	auto_accept = yes
+}
+
+add_trait_bone_female_wife_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = add_trait_bone_female_wife_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = { 
+				is_male = yes
+				has_trait = bone_female_wife
+			}
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_female_wife
+		}
+	}
+	
 	auto_accept = yes
 }
 
