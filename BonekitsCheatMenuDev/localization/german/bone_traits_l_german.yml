@@ -1,0 +1,40 @@
+﻿l_german:
+ trait_bone_super_01:0 "Super Level 1"
+ trait_bone_super_01_desc:0 "Dieser Charakter ist okay"
+ trait_bone_super_01_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist okay"
+
+ trait_bone_super_02:0 "Super Level 2"
+ trait_bone_super_02_desc:0 "Dieser Charakter ist erstaunlich"
+ trait_bone_super_02_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist erstaunlich"
+
+ trait_bone_super_03:0 "Super Level 3"
+ trait_bone_super_03_desc:0 "Dieser Charakter ist der/die Auserwählte"
+ trait_bone_super_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist der/die Auserwählte"
+
+ trait_bone_super_general_01:0 "Super General Level 1"
+ trait_bone_super_general_01_desc:0 "Dieser Charakter kann einen Kampf verlieren"
+ trait_bone_super_general_01_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kann einen Kampf verlieren"
+
+ trait_bone_super_general_02:0 "Super General Level 2"
+ trait_bone_super_general_02_desc:0 "Dieser Charakter kämpft wie ein Samurai"
+ trait_bone_super_general_02_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kämpft wie ein Samurai"
+
+ trait_bone_super_general_03:0 "Super General Level 3"
+ trait_bone_super_general_03_desc:0 "Dieser Charakter versagt niemals"
+ trait_bone_super_general_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] versagt niemals"
+ 
+ trait_bone_super_governor_01:0 "Super Governor Level 1"
+ trait_bone_super_governor_01_desc:0 "Dieser Charakter bekommt gerade mal den Papierkram auf die Reihe"
+ trait_bone_super_governor_01_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bekommt gerade mal den Papierkram auf die Reihe"
+
+ trait_bone_super_governor_02:0 "Super Governor Level 2"
+ trait_bone_super_governor_02_desc:0 "Dieser Charakter verwaltet im Schlaf ein Dorf"
+ trait_bone_super_governor_02_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] verwaltet im Schlaf ein Dorf"
+
+ trait_bone_super_governor_03:0 "Super Governor Level 3"
+ trait_bone_super_governor_03_desc:0 "Dieser Charakter hat alles unter Kontrolle"
+ trait_bone_super_governor_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat alles unter Kontrolle"
+
+ trait_bone_female_wife:0 "For the Queen"
+ trait_bone_female_wife_desc "Diese Frau wird unglaublich sein"
+ trait_bone_female_wife_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wird unglaublich sein"

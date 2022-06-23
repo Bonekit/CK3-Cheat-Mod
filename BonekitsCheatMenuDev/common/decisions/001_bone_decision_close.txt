@@ -17,7 +17,7 @@
 }
 
 close_currencies_tab = {
-    picture = gfx/interface/illustrations/decisions/close_tab.dds
+    picture = gfx/interface/illustrations/decisions/close_sub_tab.dds
     title = close_currencies_tab_title
     desc = close_currencies_tab_desc
     selection_tooltip = close_currencies_tab_tooltip
@@ -36,7 +36,7 @@ close_currencies_tab = {
 }
 
 close_army_tab = {
-    picture = gfx/interface/illustrations/decisions/close_tab.dds
+    picture = gfx/interface/illustrations/decisions/close_sub_tab.dds
     title = close_army_tab_title
     desc = close_army_tab_desc
     selection_tooltip = close_army_tab_tooltip
@@ -55,7 +55,7 @@ close_army_tab = {
 }
 
 close_character_stats_tab = {
-    picture = gfx/interface/illustrations/decisions/close_tab.dds
+    picture = gfx/interface/illustrations/decisions/close_sub_tab.dds
     title = close_character_stats_tab_title
     desc = close_character_stats_tab_desc
     selection_tooltip = close_character_stats_tab_tooltip
@@ -74,7 +74,7 @@ close_character_stats_tab = {
 }
 
 close_trait_tab = {
-    picture = gfx/interface/illustrations/decisions/close_tab.dds
+    picture = gfx/interface/illustrations/decisions/close_sub_tab.dds
     title = close_trait_tab_title
     desc = close_trait_tab_desc
     selection_tooltip = close_trait_tab_tooltip
@@ -93,7 +93,7 @@ close_trait_tab = {
 }
 
 close_realm_tab = {
-    picture = gfx/interface/illustrations/decisions/close_tab.dds
+    picture = gfx/interface/illustrations/decisions/close_sub_tab.dds
     title = close_realm_tab_title
     desc = close_realm_tab_desc
     selection_tooltip = close_realm_tab_tooltip

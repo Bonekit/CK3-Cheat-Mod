@@ -2,7 +2,7 @@
 # Author: Bonekit
 # Date: 06.06.2022
 king_of_kings = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
     title = king_of_kings_title
     desc = king_of_kings_desc
     selection_tooltip = king_of_kings_tooltip
@@ -23,7 +23,7 @@ king_of_kings = {
 }
 
 great_general = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
     title = great_general_title
     desc = great_general_desc
     selection_tooltip = great_general_tooltip
@@ -44,7 +44,7 @@ great_general = {
 }
 
 learned_from_the_best = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
     title = learned_from_the_best_title
     desc = learned_from_the_best_desc
     selection_tooltip = learned_from_the_best_tooltip
@@ -68,7 +68,7 @@ learned_from_the_best = {
 }
 
 add_trait_super_01 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
     title = add_trait_super_01_title
     desc = add_trait_super_01_desc
     selection_tooltip = add_trait_super_01_tooltip
@@ -87,7 +87,7 @@ add_trait_super_01 = {
 }
 
 add_trait_super_02 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
     title = add_trait_super_02_title
     desc = add_trait_super_02_desc
     selection_tooltip = add_trait_super_02_tooltip
@@ -106,7 +106,7 @@ add_trait_super_02 = {
 }
 
 add_trait_super_03 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
     title = add_trait_super_03_title
     desc = add_trait_super_03_desc
     selection_tooltip = add_trait_super_03_tooltip
@@ -125,10 +125,11 @@ add_trait_super_03 = {
 }
 
 remove_trait_super_01 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Remove super lvl 1"
-    desc = "Remove trait super level 1 from your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = remove_trait_super_01_title
+    desc = remove_trait_super_01_desc
+    selection_tooltip = remove_trait_super_01_tooltip
+    confirm_text = remove_trait_super_01_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -144,10 +145,11 @@ remove_trait_super_01 = {
 }
 
 remove_trait_super_02 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Remove super Lvl 2"
-    desc = "Remove trait super level 2 from your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = remove_trait_super_02_title
+    desc = remove_trait_super_02_desc
+    selection_tooltip = remove_trait_super_02_tooltip
+    confirm_text = remove_trait_super_02_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -163,10 +165,11 @@ remove_trait_super_02 = {
 }
 
 remove_trait_super_03 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Remove super Lvl 3"
-    desc = "Remove trait super level 3 from your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = remove_trait_super_03_title
+    desc = remove_trait_super_03_desc
+    selection_tooltip = remove_trait_super_03_tooltip
+    confirm_text = remove_trait_super_03_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -182,10 +185,11 @@ remove_trait_super_03 = {
 }
 
 add_trait_super_governor_01 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Super governor lvl 1"
-    desc = "Add trait super governor level 1 to your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = add_trait_super_governor_01_title
+    desc = add_trait_super_governor_01_desc
+    selection_tooltip = add_trait_super_governor_01_tooltip
+    confirm_text = add_trait_super_governor_01_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -200,10 +204,11 @@ add_trait_super_governor_01 = {
 }
 
 add_trait_super_governor_02 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Super governor lvl 2"
-    desc = "Add trait super governor level 2 to your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = add_trait_super_governor_02_title
+    desc = add_trait_super_governor_02_desc
+    selection_tooltip = add_trait_super_governor_02_tooltip
+    confirm_text = add_trait_super_governor_02_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -218,10 +223,11 @@ add_trait_super_governor_02 = {
 }
 
 add_trait_super_governor_03 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Super governor lvl 3"
-    desc = "Add trait super governor level 3 to your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = add_trait_super_governor_03_title
+    desc = add_trait_super_governor_03_desc
+    selection_tooltip = add_trait_super_governor_03_tooltip
+    confirm_text = add_trait_super_governor_03_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -236,10 +242,11 @@ add_trait_super_governor_03 = {
 }
 
 remove_trait_super_governor_01 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Remove super governor lvl 1"
-    desc = "Remove trait super governor level 1 from your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = remove_trait_super_governor_01_title
+    desc = remove_trait_super_governor_01_desc
+    selection_tooltip = remove_trait_super_governor_01_tooltip
+    confirm_text = remove_trait_super_governor_01_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -255,10 +262,11 @@ remove_trait_super_governor_01 = {
 }
 
 remove_trait_super_governor_02 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Remove super governor lvl 2"
-    desc = "Remove trait super governor level 2 from your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = remove_trait_super_governor_02_title
+    desc = remove_trait_super_governor_02_desc
+    selection_tooltip = remove_trait_super_governor_02_tooltip
+    confirm_text = remove_trait_super_governor_02_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -274,10 +282,11 @@ remove_trait_super_governor_02 = {
 }
 
 remove_trait_super_governor_03 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Remove super governor lvl 3"
-    desc = "Remove trait super governor level 3 from your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = remove_trait_super_governor_03_title
+    desc = remove_trait_super_governor_03_desc
+    selection_tooltip = remove_trait_super_governor_03_tooltip
+    confirm_text = remove_trait_super_governor_03_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -293,10 +302,11 @@ remove_trait_super_governor_03 = {
 }
 
 add_trait_general_01 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Super general lvl 1"
-    desc = "Add trait super general level 1 to your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = add_trait_general_01_title
+    desc = add_trait_general_01_desc
+    selection_tooltip = add_trait_general_01_tooltip
+    confirm_text = add_trait_general_01_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -311,10 +321,11 @@ add_trait_general_01 = {
 }
 
 add_trait_general_02 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Super general lvl 2"
-    desc = "Add trait super general level 2 to your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = add_trait_general_02_title
+    desc = add_trait_general_02_desc
+    selection_tooltip = add_trait_general_02_tooltip
+    confirm_text = add_trait_general_02_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -329,10 +340,11 @@ add_trait_general_02 = {
 }
 
 add_trait_general_03 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Super general lvl 3"
-    desc = "Add trait super general level 3 to your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = add_trait_general_03_title
+    desc = add_trait_general_03_desc
+    selection_tooltip = add_trait_general_03_tooltip
+    confirm_text = add_trait_general_03_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -347,11 +359,11 @@ add_trait_general_03 = {
 }
 
 remove_trait_general_01 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Remove super General Lvl 1"
-    desc = "Remove Trait General Level 1 from your character"
-    confirm_text = "Okay"
-
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = remove_trait_general_01_title
+    desc = remove_trait_general_01_desc
+    selection_tooltip = remove_trait_general_01_tooltip
+    confirm_text = remove_trait_general_01_ct
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
         has_character_flag = trait_tab_flag
@@ -366,10 +378,11 @@ remove_trait_general_01 = {
 }
 
 remove_trait_general_02 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Remove super general lvl 2"
-    desc = "Remove trait general level 2 from your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = remove_trait_general_02_title
+    desc = remove_trait_general_02_desc
+    selection_tooltip = remove_trait_general_02_tooltip
+    confirm_text = remove_trait_general_02_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag
@@ -385,10 +398,11 @@ remove_trait_general_02 = {
 }
 
 remove_trait_general_03 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "Remove super general lvl 3"
-    desc = "Remove trait general level 3 from your character"
-    confirm_text = "Okay"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = remove_trait_general_03_title
+    desc = remove_trait_general_03_desc
+    selection_tooltip = remove_trait_general_03_tooltip
+    confirm_text = remove_trait_general_03_ct
 
     is_shown = {
 	    has_character_flag = bone_cheat_tab_flag

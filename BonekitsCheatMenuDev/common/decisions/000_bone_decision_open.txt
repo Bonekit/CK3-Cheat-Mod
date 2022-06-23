@@ -21,7 +21,7 @@
 }
 
 bone_open_currencies_tab = {
-    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    picture = gfx/interface/illustrations/decisions/open_sub_tab.dds
     title = bone_open_currencies_tab_title
     desc = bone_open_currencies_tab_desc
     selection_tooltip = bone_open_currencies_tab_tooltip
@@ -44,7 +44,7 @@ bone_open_currencies_tab = {
 }
 
 bone_open_army_tab = {
-    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    picture = gfx/interface/illustrations/decisions/open_sub_tab.dds
     title = bone_open_army_tab_title
     desc = bone_open_army_tab_desc
     selection_tooltip = bone_open_army_tab_tooltip
@@ -67,7 +67,7 @@ bone_open_army_tab = {
 }
 
 open_character_stats_tab = {
-    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    picture = gfx/interface/illustrations/decisions/open_sub_tab.dds
     title = open_character_stats_tab_title
     desc = open_character_stats_tab_desc
     selection_tooltip = open_character_stats_tab_tooltip
@@ -90,7 +90,7 @@ open_character_stats_tab = {
 }
 
 open_trait_tab = {
-    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    picture = gfx/interface/illustrations/decisions/open_sub_tab.dds
     title = open_trait_tab_title
     desc = open_trait_tab_desc
     selection_tooltip = open_trait_tab_tooltip
@@ -113,7 +113,7 @@ open_trait_tab = {
 }
 
 open_realm_tab = {
-    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    picture = gfx/interface/illustrations/decisions/open_sub_tab.dds
     title = open_realm_tab_title
     desc = open_realm_tab_desc
     selection_tooltip = open_realm_tab_tooltip

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_german:
  # Decisions to open tabs
  bone_open_decision_cheat_tab_title:0 "Open Cheat Tab"
  bone_open_decision_cheat_tab_desc:0 "Open the cheat tab to show all options"
@@ -107,81 +107,6 @@
  add_trait_super_03_desc:0 "Add trait super level 3 to your character"
  add_trait_super_03_tooltip:0 "Add trait super level 3 to your character"
  add_trait_super_03_ct:0 "Okay"
-
- remove_trait_super_01_title:0 "Remove super lvl 1"
- remove_trait_super_01_desc:0 "Remove trait super level 1 from your character"
- remove_trait_super_01_tooltip:0 "Remove super lvl 1"
- remove_trait_super_01_ct:0 "Okay"
-
- remove_trait_super_02_title:0 "Remove super lvl 2"
- remove_trait_super_02_desc:0 "Remove trait super level 2 from your character"
- remove_trait_super_02_tooltip:0 "Remove super lvl 2"
- remove_trait_super_02_ct:0 "Okay"
-
- remove_trait_super_03_title:0 "Remove super lvl 3"
- remove_trait_super_03_desc:0 "Remove trait super level 3 from your character"
- remove_trait_super_03_tooltip:0 "Remove super lvl 3"
- remove_trait_super_03_ct:0 "Okay"
-
- add_trait_super_governor_01_title:0 "Super governor lvl 1"
- add_trait_super_governor_01_desc:0 "Add trait super governor level 1 to your character"
- add_trait_super_governor_01_tooltip:0 "Super governor lvl 1"
- add_trait_super_governor_01_ct:0 "Okay"
-
- add_trait_super_governor_02_title:0 "Super governor lvl 2"
- add_trait_super_governor_02_desc:0 "Add trait super governor level 2 to your character"
- add_trait_super_governor_02_tooltip:0 "Super governor lvl 2"
- add_trait_super_governor_02_ct:0 "Okay"
-
- add_trait_super_governor_03_title:0 "Super governor lvl 3"
- add_trait_super_governor_03_desc:0 "Add trait super governor level 3 to your character"
- add_trait_super_governor_03_tooltip:0 "Super governor lvl 3"
- add_trait_super_governor_03_ct:0 "Okay"
-
- remove_trait_super_governor_01_title:0 "Remove super governor lvl 1"
- remove_trait_super_governor_01_desc:0 "Remove trait super governor level 1 from your character"
- remove_trait_super_governor_01_tooltip:0 "Remove super governor lvl 1"
- remove_trait_super_governor_01_ct:0 "Okay"
-
- remove_trait_super_governor_02_title:0 "Remove super governor lvl 2"
- remove_trait_super_governor_02_desc:0 "Remove trait super governor level 2 from your character"
- remove_trait_super_governor_02_tooltip:0 "Remove super governor lvl 2"
- remove_trait_super_governor_02_ct:0 "Okay"
-
- remove_trait_super_governor_03_title:0 "Remove super governor lvl 3"
- remove_trait_super_governor_03_desc:0 "Remove trait super governor level 3 from your character"
- remove_trait_super_governor_03_tooltip:0 "Remove super governor lvl 3"
- remove_trait_super_governor_03_ct:0 "Okay"
-
- add_trait_general_01_title:0 "Super general lvl 1"
- add_trait_general_01_desc:0 "Add trait super general level 1 to your character"
- add_trait_general_01_tooltip:0 "Super general lvl 1"
- add_trait_general_01_ct:0 "Okay"
-
- add_trait_general_02_title:0 "Super general lvl 2"
- add_trait_general_02_desc:0 "Add trait super general level 2 to your character"
- add_trait_general_02_tooltip:0 "Super general lvl 2"
- add_trait_general_02_ct:0 "Okay"
-
- add_trait_general_03_title:0 "Super general lvl 3"
- add_trait_general_03_desc:0 "Add trait super general level 3 to your character"
- add_trait_general_03_tooltip:0 "Super general lvl 3"
- add_trait_general_03_ct:0 "Okay"
-
- remove_trait_general_01_title:0 "Remove super General Lvl 1"
- remove_trait_general_01_desc:0 "Remove Trait General Level 1 from your character"
- remove_trait_general_01_tooltip:0 "Remove super General Lvl 1"
- remove_trait_general_01_ct:0 "Okay"
-
- remove_trait_general_02_title:0 "Remove super General Lvl 2"
- remove_trait_general_02_desc:0 "Remove Trait General Level 2 from your character"
- remove_trait_general_02_tooltip:0 "Remove super General Lvl 2"
- remove_trait_general_02_ct:0 "Okay"
-
- remove_trait_general_03_title:0 "Remove super General Lvl 3"
- remove_trait_general_03_desc:0 "Remove Trait General Level 3 from your character"
- remove_trait_general_03_tooltip:0 "Remove super General Lvl 3"
- remove_trait_general_03_ct:0 "Okay"
 
  # Decisions Army
  army_spawner_1_title:0 "1,000 Troop Spawn"

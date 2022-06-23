@@ -2,10 +2,11 @@
 # Author: Bonekit
 # Date: 06.06.2022
 get_dynasty_prestige = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "10,000 Dynasty_Prestige"
-    desc = "Increase your dynasty prestige with one click."
-    confirm_text = "Increase your dynasty prestige by 10,000"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = get_dynasty_prestige_title
+    desc = get_dynasty_prestige_desc
+    selection_tooltip = get_dynasty_prestige_selection_tooltip
+    confirm_text = get_dynasty_prestige_ct
 
     is_shown = {
 		  has_character_flag = bone_cheat_tab_flag
@@ -22,10 +23,11 @@ get_dynasty_prestige = {
 }
 
 get_money = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "10,000 Gold"
-    desc = "Increase your gold with one click."
-    confirm_text = "Increase your treasury by 10,000 Gold"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = get_money_title
+    desc = get_money_desc
+    selection_tooltip = get_money_selection_tooltip
+    confirm_text = get_money_ct
 
     is_shown = {
 		  has_character_flag = bone_cheat_tab_flag
@@ -40,10 +42,11 @@ get_money = {
 }
 
 get_prestige = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "10,000 Prestige"
-    desc = "Increase your prestige with one click."
-    confirm_text = "10,000 Prestige"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = get_prestige_title
+    desc = get_prestige_desc
+    selection_tooltip = get_prestige_selection_tooltip
+    confirm_text = get_prestige_ct
 
     is_shown = {
 		  has_character_flag = bone_cheat_tab_flag
@@ -58,10 +61,11 @@ get_prestige = {
 }
 
 get_piety = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
-    title = "1,000 Piety"
-    desc = "Increase your piety with one click."
-    confirm_text = "1,000 Prestige"
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
+    title = get_piety_title
+    desc = get_piety_desc
+    selection_tooltip = get_piety_selection_tooltip
+    confirm_text = get_piety_ct
 
     is_shown = {
 		  has_character_flag = bone_cheat_tab_flag

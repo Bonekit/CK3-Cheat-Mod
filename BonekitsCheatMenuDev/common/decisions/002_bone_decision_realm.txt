@@ -2,7 +2,7 @@
 # Author: Bonekit
 # Date: 06.06.2022
 bone_convert_realm_to_culture_decision = {
-	picture = gfx/interface/illustrations/decisions/sub_tab.dds
+	picture = gfx/interface/illustrations/decisions/cheat_tab.dds
 	title = bone_convert_realm_to_culture_decision_title
 	desc = bone_convert_realm_to_culture_decision_desc
 	selection_tooltip = bone_convert_realm_to_culture_decision_tooltip
@@ -32,7 +32,7 @@ bone_convert_realm_to_culture_decision = {
 }
 
 bone_convert_realm_to_religion_decision = {
-	picture = gfx/interface/illustrations/decisions/sub_tab.dds
+	picture = gfx/interface/illustrations/decisions/cheat_tab.dds
 	title = bone_convert_realm_to_religion_decision_title
 	desc = bone_convert_realm_to_religion_decision_desc
 	selection_tooltip = bone_convert_realm_to_religion_decision_tooltip
@@ -63,7 +63,7 @@ bone_convert_realm_to_religion_decision = {
 }
 
 bone_max_all_buildings_sub_realm_decision = {
-	picture = gfx/interface/illustrations/decisions/sub_tab.dds
+	picture = gfx/interface/illustrations/decisions/cheat_tab.dds
 	title = bone_max_all_buildings_sub_realm_decision_title
     desc = bone_max_all_buildings_sub_realm_decision_desc
     selection_tooltip = bone_max_all_buildings_sub_realm_decision_tooltip

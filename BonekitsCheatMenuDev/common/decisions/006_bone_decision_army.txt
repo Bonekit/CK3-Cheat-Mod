@@ -1,5 +1,5 @@
 army_spawner_1 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
 	title = army_spawner_1_title
     desc = army_spawner_1_desc
     selection_tooltip = army_spawner_1_tooltip
@@ -15,7 +15,7 @@ army_spawner_1 = {
 			levies = 1000
 			location = root.capital_province
 			inheritable = yes
-			uses_supply = yes
+			uses_supply = no
 			name = "Crusaders"
 		}
 	}
@@ -24,7 +24,7 @@ army_spawner_1 = {
 }
 
 army_spawner_2 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
 	title = army_spawner_2_title
     desc = army_spawner_2_desc
     selection_tooltip = army_spawner_2_tooltip
@@ -40,7 +40,7 @@ army_spawner_2 = {
 			levies = 10000
 			location = root.capital_province
 			inheritable = yes
-			uses_supply = yes
+			uses_supply = no
 			name = "Crusaders"
 		}
 	}
@@ -49,7 +49,7 @@ army_spawner_2 = {
 }
 
 army_spawner_3 = {
-    picture = gfx/interface/illustrations/decisions/sub_tab.dds
+    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
 	title = army_spawner_3_title
     desc = army_spawner_3_desc
     selection_tooltip = army_spawner_3_tooltip
@@ -65,7 +65,7 @@ army_spawner_3 = {
 			levies = 100000
 			location = root.capital_province
 			inheritable = yes
-			uses_supply = yes
+			uses_supply = no
 			name = "Crusaders"
 		}
 	}
