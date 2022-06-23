@@ -43,6 +43,29 @@ bone_open_currencies_tab = {
     ai_will_do = 0
 }
 
+bone_open_army_tab = {
+    picture = gfx/interface/illustrations/decisions/open_tab.dds
+    title = bone_open_army_tab_title
+    desc = bone_open_army_tab_desc
+    selection_tooltip = bone_open_army_tab_tooltip
+    confirm_text = bone_open_army_tab_ct
+
+    is_shown = {
+	   has_character_flag = bone_cheat_tab_flag
+	   NOT = { 
+		   has_character_flag = army_tab_flag
+		}
+    }
+
+    effect = {
+        add_character_flag = {
+            flag = army_tab_flag
+        }
+    }
+    ai_check_interval = 0
+    ai_will_do = 0
+}
+
 open_character_stats_tab = {
     picture = gfx/interface/illustrations/decisions/open_tab.dds
     title = open_character_stats_tab_title

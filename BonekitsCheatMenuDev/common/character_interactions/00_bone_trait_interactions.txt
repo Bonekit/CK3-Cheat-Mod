@@ -203,6 +203,32 @@ add_trait_bone_female_wife_interaction = {
 	auto_accept = yes
 }
 
+remove_trait_bone_female_wife_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = remove_trait_bone_female_wife_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			has_trait = bone_female_wife
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_female_wife
+		}
+	}
+	
+	auto_accept = yes
+}
+
 add_trait_super_01_interaction = {
 	category = interaction_category_cheat_menu
 	common_interaction = yes

@@ -61,6 +61,8 @@
 
  add_trait_bone_female_wife_interaction:0 "For the Queen"
  add_trait_bone_female_wife_interaction_desc:0 "Your Wife will now be more awesome"
+ remove_trait_bone_female_wife_interaction:0 "Remove the Queen Trait"
+ remove_trait_bone_female_wife_interaction_desc:0 "Remove trait Queen from the targeted character"
 
  bone_add_gold_and_prestige:0 "Add Gold & Prestige"
  bone_add_gold_and_prestige_desc:0 "Add Gold & Prestige to the targeted character"

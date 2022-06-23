@@ -97,3 +97,29 @@
  add_trait_super_03_desc:0 "Add trait super level 3 to your character"
  add_trait_super_03_tooltip:0 "Add trait super level 3 to your character"
  add_trait_super_03_ct:0 "Okay"
+
+ # Decisions Army
+ bone_open_army_tab_title:0 "Open Army Tab"
+ bone_open_army_tab_desc:0 "This will open the army tab. Here you can spawn armys"
+ bone_open_army_tab_tooltip:0 "This will open the army tab."
+ bone_open_army_tab_ct:0 "Okay"
+
+ close_army_tab_title:0 "Close Army Tab"
+ close_army_tab_desc:0 "This will close the Army tab."
+ close_army_tab_tooltip:0 "This will close the Army tab."
+ close_army_tab_ct:0 "Close Tab"
+
+ army_spawner_1_title:0 "1,000 Troop Spawn"
+ army_spawner_1_desc:0 "Spawns 1,000 Troops in your Capital"
+ army_spawner_1_tooltip:0 "Spawns 1,000 Troops in your Capital"
+ army_spawner_1_ct:0 "OKAY"
+
+ army_spawner_2_title:0 "10,000 Troop Spawn"
+ army_spawner_2_desc:0 "Spawns 10,000 Troops in your Capital"
+ army_spawner_2_tooltip:0 "Spawns 10,000 Troops in your Capital"
+ army_spawner_2_ct:0 "OKAY"
+
+ army_spawner_3_title:0 "100,000 Troop Spawn"
+ army_spawner_3_desc:0 "Spawns 100,000 Troops in your Capital"
+ army_spawner_3_tooltip:0 "Spawns 100,000 Troops in your Capital"
+ army_spawner_3_ct:0 "OKAY"
