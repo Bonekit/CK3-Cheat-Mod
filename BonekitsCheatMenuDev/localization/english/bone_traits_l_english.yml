@@ -36,5 +36,5 @@
  trait_bone_super_governor_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has everything under control"
 
  trait_bone_female_wife:0 "For the Queen"
- trait_bone_female_wife_desc "Your Wife will now be more awesome"
+ trait_bone_female_wife_desc:0 "Your Wife will now be more awesome"
  trait_bone_female_wife_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is now more awesome"

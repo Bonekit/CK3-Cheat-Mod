@@ -109,6 +109,7 @@
  add_trait_super_03_ct:0 "Okay"
 
  # Decisions Army
+ b_army_spawner_name:0 "Kreuzritter"
  army_spawner_1_title:0 "1,000 Troop Spawn"
  army_spawner_1_desc:0 "Spawns 1,000 Troops in your Capital"
  army_spawner_1_tooltip:0 "Spawns 1,000 Troops in your Capital"

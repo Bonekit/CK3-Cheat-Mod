@@ -36,5 +36,5 @@
  trait_bone_super_governor_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat alles unter Kontrolle"
 
  trait_bone_female_wife:0 "For the Queen"
- trait_bone_female_wife_desc "Diese Frau wird unglaublich sein"
+ trait_bone_female_wife_desc:0 "Diese Frau wird unglaublich sein"
  trait_bone_female_wife_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wird unglaublich sein"

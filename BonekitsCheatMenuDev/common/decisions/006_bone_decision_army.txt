@@ -16,7 +16,7 @@ army_spawner_1 = {
 			location = root.capital_province
 			inheritable = yes
 			uses_supply = no
-			name = "Crusaders"
+			name = b_army_spawner_name
 		}
 	}
     ai_will_do = 0
@@ -41,7 +41,7 @@ army_spawner_2 = {
 			location = root.capital_province
 			inheritable = yes
 			uses_supply = no
-			name = "Crusaders"
+			name = b_army_spawner_name
 		}
 	}
     ai_will_do = 0
@@ -66,7 +66,7 @@ army_spawner_3 = {
 			location = root.capital_province
 			inheritable = yes
 			uses_supply = no
-			name = "Crusaders"
+			name = b_army_spawner_name
 		}
 	}
     ai_will_do = 0
