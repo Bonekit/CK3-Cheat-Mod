@@ -23,18 +23,18 @@
  trait_bone_super_general_03_desc:0 "Dieser Charakter versagt niemals"
  trait_bone_super_general_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] versagt niemals"
  
- trait_bone_super_governor_01:0 "Super Governor Level 1"
+ trait_bone_super_governor_01:0 "Super Gouverneur Level 1"
  trait_bone_super_governor_01_desc:0 "Dieser Charakter bekommt gerade mal den Papierkram auf die Reihe"
  trait_bone_super_governor_01_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bekommt gerade mal den Papierkram auf die Reihe"
 
- trait_bone_super_governor_02:0 "Super Governor Level 2"
+ trait_bone_super_governor_02:0 "Super Gouverneur Level 2"
  trait_bone_super_governor_02_desc:0 "Dieser Charakter verwaltet im Schlaf ein Dorf"
  trait_bone_super_governor_02_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] verwaltet im Schlaf ein Dorf"
 
- trait_bone_super_governor_03:0 "Super Governor Level 3"
+ trait_bone_super_governor_03:0 "Super Gouverneur Level 3"
  trait_bone_super_governor_03_desc:0 "Dieser Charakter hat alles unter Kontrolle"
  trait_bone_super_governor_03_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat alles unter Kontrolle"
 
- trait_bone_female_wife:0 "For the Queen"
+ trait_bone_female_wife:0 "Für die Königin"
  trait_bone_female_wife_desc:0 "Diese Frau wird unglaublich sein"
  trait_bone_female_wife_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wird unglaublich sein"
