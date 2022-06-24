@@ -13,15 +13,19 @@ Zero-slash (Modder from Pavlik)
 ## Create a descriptor.mod file to use this mod
 I don't added my own descriptor.mod file, because there is my workshop id inside.
 ```
-version="0.7.1"
+version="0.9.0"
 tags={
 	"Decisions"
 	"Gameplay"
 	"Utilities"
 }
 name="Bonekits Cheat Menu"
-supported_version="1.6.1"
+supported_version="1.*"
 ```
+
+## Translations
+* German
+* English
 
 ## Decisions
 * Add gold
@@ -35,6 +39,7 @@ supported_version="1.6.1"
 * Convert Realm to Religion
 * Convert Realm to Culture
 * Auto Upgrade all your Buildings
+* Spawn Armies
 * and more
 
 ## Character Interactions
