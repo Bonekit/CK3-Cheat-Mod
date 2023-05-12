@@ -35,9 +35,9 @@ great_general = {
     }
 
     effect = {
-	    add_trait = blademaster_3
         add_trait = organizer
-        add_trait = hunter_3
+        add_trait = lifestyle_blademaster
+        add_trait = lifestyle_hunter
     }
     ai_check_interval = 0
     ai_will_do = 0

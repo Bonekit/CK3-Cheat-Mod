@@ -62,12 +62,12 @@
  close_army_tab_ct:0 "Schließen"
 
  # Decisions realm
- bone_convert_realm_to_culture_decision_title:0 "Kultur ändern"
+ bone_convert_realm_to_culture_decision_title:0 "Kultur ändern (Beta)"
  bone_convert_realm_to_culture_decision_desc:0 "Ändere die Kultur in deinem Land"
  bone_convert_realm_to_culture_decision_tooltip:0 "Ändere die Kultur in deinem Land"
  bone_convert_realm_to_culture_decision_ct:0 "Ausführen"
 
- bone_convert_realm_to_religion_decision_title:0 "Glauben ändern"
+ bone_convert_realm_to_religion_decision_title:0 "Glauben ändern (Beta)"
  bone_convert_realm_to_religion_decision_desc:0 "Ändere den Glauben in deinem Land"
  bone_convert_realm_to_religion_decision_tooltip:0 "Ändere den Glauben in deinem Land"
  bone_convert_realm_to_religion_decision_ct:0 "Ausführen"
@@ -110,20 +110,15 @@
 
  # Decisions army
  b_army_spawner_name:0 "Kreuzritter"
- army_spawner_1_title:0 "1,000 Truppen spawnen"
- army_spawner_1_desc:0 "Spawn 1,000 Truppen in deiner Hauptstadt"
- army_spawner_1_tooltip:0 "Spawn 1,000 Truppen in deiner Hauptstadt"
+ army_spawner_1_title:0 "1.000 Truppen spawnen"
+ army_spawner_1_desc:0 "Spawn 1.000 Truppen in deiner Hauptstadt"
+ army_spawner_1_tooltip:0 "Spawn 1.000 Truppen in deiner Hauptstadt"
  army_spawner_1_ct:0 "Spawn"
 
- army_spawner_2_title:0 "10,000 Troop spawnen"
- army_spawner_2_desc:0 "Spawn 10,000 Truppen in deiner Hauptstadt"
- army_spawner_2_tooltip:0 "Spawns 10,000 Truppen in deiner Hauptstadt"
+ army_spawner_2_title:0 "10.000 Truppen spawnen"
+ army_spawner_2_desc:0 "Spawn 10.000 Truppen in deiner Hauptstadt"
+ army_spawner_2_tooltip:0 "Spawn 10.000 Truppen in deiner Hauptstadt"
  army_spawner_2_ct:0 "Spawn"
-
- army_spawner_3_title:0 "100,000 Troop spawnen"
- army_spawner_3_desc:0 "Spawn 100,000 Truppen in deiner Hauptstadt"
- army_spawner_3_tooltip:0 "Spawn 100,000 Truppen in deiner Hauptstadt"
- army_spawner_3_ct:0 "Spawn"
 
  # Decisions currency
  get_dynasty_prestige_title:0 "10,000 Dynastie Prestige"

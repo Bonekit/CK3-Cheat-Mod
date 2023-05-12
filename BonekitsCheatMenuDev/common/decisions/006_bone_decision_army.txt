@@ -47,28 +47,3 @@ army_spawner_2 = {
     ai_will_do = 0
 	ai_check_interval = 0
 }
-
-army_spawner_3 = {
-    picture = gfx/interface/illustrations/decisions/cheat_tab.dds
-	title = army_spawner_3_title
-    desc = army_spawner_3_desc
-    selection_tooltip = army_spawner_3_tooltip
-    confirm_text = army_spawner_3_ct
-
-	is_shown = {
-		has_character_flag = bone_cheat_tab_flag
-		has_character_flag = army_tab_flag
-	}
-
-	effect = {
-		spawn_army = {
-			levies = 100000
-			location = root.capital_province
-			inheritable = yes
-			uses_supply = no
-			name = b_army_spawner_name
-		}
-	}
-    ai_will_do = 0
-	ai_check_interval = 0
-}

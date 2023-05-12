@@ -120,18 +120,18 @@ great_general_interaction = {
 		}
 		scope:recipient = {
 			NOT = {
-				has_trait = blademaster_3
 				has_trait = organizer
-				has_trait = hunter_3
+				has_trait = lifestyle_blademaster
+				has_trait = lifestyle_hunter
 			}
 		}
     }
 
 	on_accept = {
 		scope:recipient = {
-			add_trait = blademaster_3
 			add_trait = organizer
-			add_trait = hunter_3
+			add_trait = lifestyle_blademaster
+			add_trait = lifestyle_hunter
 		}
 	}
 	auto_accept = yes
@@ -223,6 +223,61 @@ remove_trait_bone_female_wife_interaction = {
 	on_accept = {
 		scope:recipient = {
 			remove_trait = bone_female_wife
+		}
+	}
+	
+	auto_accept = yes
+}
+
+add_trait_bone_female_heir_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = add_trait_bone_female_wife_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			NOT = { 
+				is_male = yes
+				has_trait = bone_female_heir
+			}
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_trait = bone_female_heir
+		}
+	}
+	
+	auto_accept = yes
+}
+
+remove_trait_bone_female_heir_interaction = {
+	category = interaction_category_cheat_menu
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	desc = remove_trait_bone_female_heir_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			has_character_flag = bone_trait_interactions_flag
+		}
+		scope:recipient = {
+			has_trait = bone_female_heir
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			remove_trait = bone_female_heir
 		}
 	}
 	

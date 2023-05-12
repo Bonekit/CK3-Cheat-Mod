@@ -62,12 +62,12 @@
  close_army_tab_ct:0 "Close Tab"
 
  # Decisions Realm
- bone_convert_realm_to_culture_decision_title:0 "Convert Realm to Culture"
+ bone_convert_realm_to_culture_decision_title:0 "Convert Realm to Culture (Beta)"
  bone_convert_realm_to_culture_decision_desc:0 "Convert all in your Realm to your Culture"
  bone_convert_realm_to_culture_decision_tooltip:0 "Convert subrealms to culture"
  bone_convert_realm_to_culture_decision_ct:0 "Execute"
 
- bone_convert_realm_to_religion_decision_title:0 "Convert to Religion"
+ bone_convert_realm_to_religion_decision_title:0 "Convert to Religion (Beta)"
  bone_convert_realm_to_religion_decision_desc:0 "Convert all in your Realm to your Religion"
  bone_convert_realm_to_religion_decision_tooltip:0 "Convert Realm to Religion"
  bone_convert_realm_to_religion_decision_ct:0 "Execute"
@@ -186,19 +186,14 @@
  # Decisions Army
  b_army_spawner_name:0 "Crusaders"
  army_spawner_1_title:0 "1,000 Troop Spawn"
- army_spawner_1_desc:0 "Spawns 1,000 Troops in your Capital"
- army_spawner_1_tooltip:0 "Spawns 1,000 Troops in your Capital"
+ army_spawner_1_desc:0 "Spawn 1,000 Troops in your Capital"
+ army_spawner_1_tooltip:0 "Spawn 1,000 Troops in your Capital"
  army_spawner_1_ct:0 "OKAY"
 
  army_spawner_2_title:0 "10,000 Troop Spawn"
- army_spawner_2_desc:0 "Spawns 10,000 Troops in your Capital"
- army_spawner_2_tooltip:0 "Spawns 10,000 Troops in your Capital"
+ army_spawner_2_desc:0 "Spawn 10,000 Troops in your Capital"
+ army_spawner_2_tooltip:0 "Spawn 10,000 Troops in your Capital"
  army_spawner_2_ct:0 "OKAY"
-
- army_spawner_3_title:0 "100,000 Troop Spawn"
- army_spawner_3_desc:0 "Spawns 100,000 Troops in your Capital"
- army_spawner_3_tooltip:0 "Spawns 100,000 Troops in your Capital"
- army_spawner_3_ct:0 "OKAY"
 
  # Decisions Currency
  get_dynasty_prestige_title:0 "10,000 Dynasty_Prestige"

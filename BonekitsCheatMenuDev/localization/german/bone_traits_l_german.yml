@@ -38,3 +38,7 @@
  trait_bone_female_wife:0 "Für die Königin"
  trait_bone_female_wife_desc:0 "Diese Frau wird unglaublich sein"
  trait_bone_female_wife_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wird unglaublich sein"
+
+ trait_bone_female_heir:0 "Superfrau"
+ trait_bone_female_heir_desc:0 "Alles was Männer fürchten"
+ trait_bone_female_heir_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist eine Superfrau"

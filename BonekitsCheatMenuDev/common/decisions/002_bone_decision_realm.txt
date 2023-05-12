@@ -76,6 +76,7 @@ bone_max_all_buildings_sub_realm_decision = {
 
 	effect = {
 		if = {
+			limit = {}
 			every_sub_realm_county = {
 				every_county_province  = {
 					limit = {
@@ -86,6 +87,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}
 		}
 		if = {
+			limit = {}
 			every_sub_realm_county = {
 				every_county_province  = {
 					limit = {
@@ -100,6 +102,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}
 		}
 		if = {
+			limit = {}
 			every_sub_realm_county = {
 				every_county_province  = {
 					limit = {
@@ -114,6 +117,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}
 		}
 		if = {
+			limit = {}
 			every_sub_realm_county = {
 				every_county_province  = {
 					limit = {
@@ -128,6 +132,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}
 		}
 		if = {
+			limit = {}
 			every_sub_realm_county = {
 				every_county_province  = {
 					limit = {
@@ -146,6 +151,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}
 		}
 		if = {
+			limit = {}
 			every_sub_realm_county = {
 				every_county_province  = {
 					limit = {
@@ -164,6 +170,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}
 		}
 		if = {
+			limit = {}
 			every_sub_realm_county = {
 				every_county_province  = {
 					limit = {
@@ -177,6 +184,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}
 		}
 		if = {
+			limit = {}
 			every_sub_realm_county = {
 				every_county_province  = {
 					limit = {
@@ -190,6 +198,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}
 		}
 		if = {
+			limit = {}
 			every_sub_realm_county = {
 				every_county_province  = {
 					limit = {
@@ -202,7 +211,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}
 			}
 		}
-		if = {							
+		if = {			
+			limit = {}				
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -216,6 +226,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -228,7 +239,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {			
+			limit = {}		
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -241,7 +253,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {		
+			limit = {}			
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -254,7 +267,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {			
+			limit = {}		
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -267,7 +281,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {		
+			limit = {}			
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -280,7 +295,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -293,7 +309,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {		
+			limit = {}			
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -305,7 +322,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {		
+			limit = {}			
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -317,7 +335,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {			
+			limit = {}		
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -330,6 +349,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}
 		if = {		
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -341,7 +361,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {		
+			limit = {}		
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -353,7 +374,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -365,7 +387,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -377,7 +400,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {			
+			limit = {}		
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -391,7 +415,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -405,7 +430,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {			
+			limit = {}		
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -419,7 +445,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -433,7 +460,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -447,7 +475,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {			
+			limit = {}		
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -461,7 +490,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {			
+			limit = {}		
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -475,7 +505,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -490,6 +521,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -503,7 +535,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {		
+			limit = {}			
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -519,6 +552,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -536,7 +570,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {			
+			limit = {}		
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -554,7 +589,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -573,6 +609,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -591,6 +628,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -608,7 +646,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -626,7 +665,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -645,6 +685,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -663,6 +704,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -680,7 +722,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -699,6 +742,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -716,7 +760,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -734,7 +779,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -753,6 +799,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -771,6 +818,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -789,6 +837,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -807,6 +856,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -825,6 +875,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -842,7 +893,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -860,7 +912,8 @@ bone_max_all_buildings_sub_realm_decision = {
 				}			
 			}				
 		}					
-		if = {					
+		if = {				
+			limit = {}	
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		
@@ -879,6 +932,7 @@ bone_max_all_buildings_sub_realm_decision = {
 			}				
 		}					
 		if = {					
+			limit = {}
 			every_sub_realm_county = {				
 				every_county_province  = {			
 					limit = {		

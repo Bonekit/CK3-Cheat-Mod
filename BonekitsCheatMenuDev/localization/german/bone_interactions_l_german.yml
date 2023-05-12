@@ -64,6 +64,11 @@
  remove_trait_bone_female_wife_interaction:0 "Enferne Trait Königin"
  remove_trait_bone_female_wife_interaction_desc:0 "Entferne Trait Königin von der ausgewählten Frau"
 
+ add_trait_bone_female_heir_interaction:0 "Superfrau"
+ add_trait_bone_female_heir_interaction_desc:0 "Alles was Männer fürchten"
+ remove_trait_bone_female_heir_interaction:0 "Entferne Trait Superfrau"
+ remove_trait_bone_female_heir_interaction_desc:0 "Entferne Trait Superfrau von der ausgewählten Frau"
+
  bone_add_gold_and_prestige:0 "Gold & Prestige hinzufügen"
  bone_add_gold_and_prestige_desc:0 "Füge Gold & Prestige dem ausgewählten Charakter zu"
 
