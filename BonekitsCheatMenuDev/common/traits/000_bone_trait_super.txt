@@ -1,12 +1,12 @@
 ﻿# Make character super
 bone_super_01 = {
 	index = 1001
-	learning = 10
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	prowess = 10
+	learning = 5
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	prowess = 5
 
 	monthly_prestige = 100
 	monthly_dynasty_prestige = 1
@@ -32,12 +32,12 @@ bone_super_01 = {
 
 bone_super_02 = {
 	index = 1002
-	learning = 15
-	diplomacy = 15
-	martial = 15
-	stewardship = 15
-	intrigue = 15
-	prowess = 15
+	learning = 10
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	prowess = 10
 
 	monthly_prestige = 500
 	monthly_dynasty_prestige = 5
@@ -63,12 +63,12 @@ bone_super_02 = {
 
 bone_super_03 = {
 	index = 1003
-	learning = 25
-	diplomacy = 25
-	martial = 25
-	stewardship = 25
-	intrigue = 25
-	prowess = 25
+	learning = 20
+	diplomacy = 20
+	martial = 20
+	stewardship = 20
+	intrigue = 20
+	prowess = 20
 
 	monthly_prestige = 1000
 	monthly_dynasty_prestige = 10

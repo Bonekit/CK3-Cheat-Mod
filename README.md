@@ -13,7 +13,7 @@ Zero-slash (Modder from Pavlik)
 ## Create a descriptor.mod file to use this mod
 I don't added my own descriptor.mod file, because there is my workshop id inside.
 ```
-version="0.9.1"
+version="0.9.2"
 tags={
 	"Decisions"
 	"Gameplay"
