@@ -29,8 +29,8 @@ supported_version="1.9.*"
 
 ## Decisions
 * Add gold
-* Add piety
-* Add prestige
+* Add piety without adding experience
+* Add prestige without adding experience
 * Add dynasty prestige
 * Increase your stats
 * Add Perk Points

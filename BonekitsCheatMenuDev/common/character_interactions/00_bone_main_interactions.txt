@@ -98,7 +98,7 @@ bone_add_gold_and_prestige = {
 	on_accept = {
 		scope:recipient = {
 			add_gold = 1000
-			add_prestige = 1000
+			add_prestige_no_experience = 1000
 		}
 	}
 }
