@@ -5,7 +5,9 @@
 Bonekit's Cheat Menu is a little cheat mod for crusader kings 3.
 
 ## NO LONGER SUPPORTED
-🔔 IMPORTANT: Bonekit's Cheat Menu is no longer supported. The mod is now ARCHIVED. Thank you for your support!"
+🔔 IMPORTANT: Bonekit's Cheat Menu is no longer supported.
+Due to family and work, I am unfortunately no longer able to continue working on my mod
+Thank you for your support!
 
 ## How to use
 
